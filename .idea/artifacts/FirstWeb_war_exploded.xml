@@ -1,0 +1,19 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="FirstWeb:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/FirstWeb_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="FirstWeb/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="FirstWeb" />
+        </element>
+      </element>
+      <element id="directory" name="folder">
+        <element id="dir-copy" path="D:/Tomcat/apache-tomcat-8.5.32" />
+      </element>
+      <element id="directory" name="folder2">
+        <element id="dir-copy" path="D:/Tomcat/apache-tomcat-8.5.32/webapps" />
+      </element>
+    </root>
+  </artifact>
+</component>
